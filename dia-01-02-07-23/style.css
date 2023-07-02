@@ -1,0 +1,70 @@
+
+#page-central {
+    width: 1400px;
+    height: 1860px;
+}
+body {
+    background-color: #E8EAE9;;
+}
+
+#page-retangule {
+    width: 1245px;
+    height: 614px;
+    background-color: #25252A;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 72px; 
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+#p-retangule {
+    display: flex;
+    width: 561px;
+    flex-direction: column;
+    color: #B8B8B8;
+    font-size: 28px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h2{
+    color: #25252A;
+    text-align: center;
+    font-size: 50px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+#container .div-anuncio{
+    width: 350px;
+}
+
+.div-h2{
+    width: 350px;
+    height: 311px;
+    background-color: #FFF;
+}
+
+#rodape-retangule{
+    width: 1245px;
+    height: 531px;
+    background-color: #FFF;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
