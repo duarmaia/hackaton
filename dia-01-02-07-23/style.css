@@ -1,25 +1,27 @@
-
 #page-central {
-    width: 1400px;
-    height: 1860px;
+    width: 80%;
+    margin: 0 auto
 }
+
 body {
-    background-color: #E8EAE9;;
+    background-color: #E8EAE9;
 }
 
 #page-retangule {
-    width: 1245px;
     height: 614px;
     background-color: #25252A;
+    margin: 0 auto;
 }
 
 h1 {
     color: #FFFFFF;
-    font-size: 72px; 
+    font-size: 72px;
     font-family: Avenir;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding-top: 160px;
+    padding-left: 160px;
 
 }
 
@@ -33,38 +35,53 @@ h1 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding-left: 160px;
 }
 
-h2{
+h2 {
     color: #25252A;
     text-align: center;
     font-size: 50px;
     font-family: Avenir;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 06;
+
 }
 
 #container {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: auto auto auto;
+    margin: 0 auto;
+    justify-content: space-around;
 }
 
-#container .div-anuncio{
+#container .div-anuncio {
     width: 350px;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
 
-.div-h2{
+#container .div-anuncio::after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 3px;
+    background-color: aqua;
+}
+
+.div-h2 {
     width: 350px;
     height: 311px;
     background-color: #FFF;
+    text-align: center;
 }
 
-#rodape-retangule{
-    width: 1245px;
-    height: 531px;
+#rodape-retangule {
+
     background-color: #FFF;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 48% 48%;
+    margin: 0 auto;
+    padding-left: 60px;
 }
-
